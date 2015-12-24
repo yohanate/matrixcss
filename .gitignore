@@ -1,0 +1,11 @@
+
+# Others #
+#################
+.idea
+~$*
+.xml
+.html
+Output/
+*.pyc
+Input/*.pyc
+Tests/Matrix.robot
