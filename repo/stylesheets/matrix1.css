@@ -21,7 +21,8 @@ a, a:visited, a:active, a:hover, a:link {
 
 #jenkins-head-icon {
     display:none;
-    height:45px;
+    height: 35px;
+    top: 3px;
 }
 
 #jenkins-head-label {
