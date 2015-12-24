@@ -5,7 +5,7 @@ function applyChanges() {
     for (var i in links) {
         link = links[i];
         if (link.getAttribute('rel') == 'shortcut icon') {
-            link.setAttribute('href', '/userContent/favicon.ico');
+            link.setAttribute('href', 'http://yohanate.github.io/matrixcss/repo/img/favicon.ico');
             break;
         }
     }
