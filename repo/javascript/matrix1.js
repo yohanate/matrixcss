@@ -23,7 +23,7 @@ else if (window.attachEvent) {
 }
 
 function changeHeaderIcon() {
-    document.getElementById('jenkins-head-icon').src = 'http://yohanate.github.io/matrixcss/repo/img/jenkins-head-icon-smaller.png';
+    document.getElementById('jenkins-head-icon').src = 'http://yohanate.github.io/matrixcss/repo/img/jenkins-head-icon-medium.png';
     document.getElementById('jenkins-head-icon').style.display = 'block';
 }
 
