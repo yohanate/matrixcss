@@ -9,6 +9,7 @@ function myFunction() {
             break;
         }
     }
+    document.getElementById('jenkins-head-icon').src = 'http://yohanate.github.io/matrixcss/repo/img/jenkins-head-icon.png';
 };
 var body = document.getElementsByTagName('body');
 if (window.addEventListener) {
@@ -18,4 +19,3 @@ else if (window.attachEvent) {
     window.attachEvent('onload', myFunction );
 }
 
-document.getElementById('jenkins-head-icon').src = 'http://yohanate.github.io/matrixcss/repo/img/jenkins-head-icon.png';
