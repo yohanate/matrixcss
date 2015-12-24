@@ -20,7 +20,7 @@ a, a:visited, a:active, a:hover, a:link {
 }
 
 #jenkins-head-icon {
-    display:none;
+    height: 42px;
 }
 
 #main-table {

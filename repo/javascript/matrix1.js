@@ -18,4 +18,4 @@ else if (window.attachEvent) {
     window.attachEvent('onload', myFunction );
 }
 
-document.getElementById('jenkins-head-icon').src = '../img/jenkins-head-icon.png';
+document.getElementById('jenkins-head-icon').src = 'http://yohanate.github.io/matrixcss/repo/img/jenkins-head-icon.png';
