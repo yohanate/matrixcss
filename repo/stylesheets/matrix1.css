@@ -23,6 +23,16 @@ a, a:visited, a:active, a:hover, a:link {
     display:none;
 }
 
+#jenkins-head-label {
+    height: 40px;
+    color: #FFFFFF;
+    font-size: 17px;
+    margin-left: 50px;
+    margin-top: 10px;
+    z-index: 3;
+    font-family: courier;
+}
+
 #main-table {
     background: none;
     background-image: none;

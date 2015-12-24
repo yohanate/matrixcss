@@ -10,6 +10,7 @@ function applyChanges() {
         }
     }
     changeHeaderIcon();
+    addMatrixLabel();
 
 
 };
@@ -28,4 +29,13 @@ function changeHeaderIcon() {
 
 function changeFavicon(link) {
     link.setAttribute('href', 'http://yohanate.github.io/matrixcss/repo/img/favicon.ico');
+}
+
+function addMatrixLabel() {
+    var newDiv = document.createElement('div');
+    newDiv.setAttribute('id','jenkins-head-label');
+    newDiv.innerHTML = 'matrix';
+
+    var parentDiv = document.getElementById('jenkins-home-link');
+    parentDiv.appendChild(newdiv);
 }
