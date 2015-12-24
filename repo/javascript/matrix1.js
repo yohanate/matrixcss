@@ -37,5 +37,5 @@ function addMatrixLabel() {
     newDiv.innerHTML = 'matrix';
 
     var parentDiv = document.getElementById('jenkins-home-link');
-    parentDiv.appendChild(newdiv);
+    parentDiv.appendChild(newDiv);
 }
