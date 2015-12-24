@@ -1,16 +1,7 @@
 // Jenkins js tweaks
 function applyChanges() {
-    head = document.getElementsByTagName('head');
-    links = head[0].getElementsByTagName('link');
-    for (var i in links) {
-        link = links[i];
-        if (link.getAttribute('rel') == 'shortcut icon') {
-            link.setAttribute('href', 'http://yohanate.github.io/matrixcss/repo/img/favicon.ico');
-            break;
-        }
-    }
     changeHeaderIcon();
-
+    changeFavicon();
 };
 var body = document.getElementsByTagName('body');
 if (window.addEventListener) {
@@ -23,4 +14,8 @@ else if (window.attachEvent) {
 function changeHeaderIcon() {
     document.getElementById('jenkins-head-icon').src = 'http://yohanate.github.io/matrixcss/repo/img/jenkins-head-icon-small.png';
     document.getElementById('jenkins-head-icon').style.display = 'block';
+}
+
+function changeFavicon() {
+    link.setAttribute('href', 'http://yohanate.github.io/matrixcss/repo/img/favicon.ico');
 }
